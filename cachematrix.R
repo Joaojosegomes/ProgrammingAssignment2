@@ -42,5 +42,5 @@ cacheSolve <- function(x, ...) {
       
       x$setinv(m)
       
-      return(round(m,digits=2))
+      return(m)
 }
